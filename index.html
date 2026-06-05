@@ -228,8 +228,8 @@
     </div>
   </footer>
 
-  <!-- Apenas um botão do WhatsApp, já com o rastreador de cliques -->
-  <a class="float-whatsapp" href="https://wa.me/5521964046039" target="_blank" rel="noopener" onclick="window.va && va('event', { name: 'Clique WhatsApp' })">
+  <!-- Botão do WhatsApp 3 em 1: Funciona, avisa a Vercel e avisa o Google Ads -->
+  <a class="float-whatsapp" href="https://wa.me/5521964046039" target="_blank" rel="noopener" onclick="window.va && va('event', { name: 'Clique WhatsApp' }); gtag('event', 'conversion', { 'send_to': 'AW-18206900737/i8jwCJfW2bccEIGE3elD', 'value': 1.0, 'currency': 'BRL' });">
     WhatsApp
   </a>
 
